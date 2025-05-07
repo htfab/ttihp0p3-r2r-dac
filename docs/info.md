@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Base minimum 1x1 analog project.
 
 ## How to test
 
-Explain how to use your project
+It doesn't do anything, so it can't be tested.
 
 ## External hardware
 
