@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Base minimum 1x1 analog project.
+Combines 25 identical resistors (plus 2 dummies) into an 8 bit [R-2R resistor ladder DAC](https://en.wikipedia.org/wiki/Resistor_ladder).
 
 ## How to test
 
-It doesn't do anything, so it can't be tested.
+Use `ui_in[7:0]` to set the input in binary. The output analog voltage is available on `ua[0]`.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A multimeter or some other device to measure the output voltage (ADC, oscilloscope, etc.)

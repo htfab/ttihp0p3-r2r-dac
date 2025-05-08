@@ -1,0 +1,81 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1746729020
+<< metal1 >>
+rect -13 197 215 1911
+rect 311 1697 607 1783
+rect 703 1697 999 1784
+rect 1095 1697 1391 1783
+rect 1487 1697 1587 1783
+rect 1291 1611 1391 1697
+rect 1683 1611 1783 1783
+rect 1879 1697 2175 1784
+rect 2271 1697 2567 1783
+rect 2663 1697 2763 1783
+rect 1291 1525 1783 1611
+rect 2467 1611 2567 1697
+rect 2859 1611 2959 1783
+rect 3055 1697 3351 1784
+rect 3447 1697 3743 1783
+rect 3839 1697 3939 1783
+rect 2467 1525 2959 1611
+rect 3643 1611 3743 1697
+rect 4035 1611 4135 1783
+rect 4231 1697 4527 1784
+rect 4623 1697 4919 1783
+rect 5015 1697 5115 1783
+rect 3643 1525 4135 1611
+rect 703 283 1195 369
+rect 703 197 803 283
+rect -13 111 411 197
+rect 507 111 803 197
+rect 899 111 999 197
+rect 1095 111 1195 283
+rect 1879 283 2371 369
+rect 1879 197 1979 283
+rect 1291 111 1587 197
+rect 1683 111 1979 197
+rect 2075 111 2175 197
+rect 2271 111 2371 283
+rect 3055 283 3547 369
+rect 3055 197 3155 283
+rect 2467 111 2763 197
+rect 2859 111 3155 197
+rect 3251 111 3351 197
+rect 3447 111 3547 283
+rect 4231 283 4723 369
+rect 4231 197 4331 283
+rect 3643 111 3939 197
+rect 4035 111 4331 197
+rect 4427 111 4527 197
+rect 4623 111 4723 283
+rect 4819 111 5115 197
+rect -13 -17 215 111
+rect 5211 -17 5439 1911
+use resistors  resistors_0
+timestamp 1746729020
+transform 1 0 2713 0 1 931
+box -2802 -1024 2802 1056
+<< labels >>
+flabel metal1 311 111 411 197 0 FreeSans 256 0 0 0 GND
+port 1 nsew ground bidirectional
+flabel metal1 899 111 999 197 0 FreeSans 256 0 0 0 IN[0]
+port 2 nsew signal input
+flabel metal1 1487 1697 1587 1783 0 FreeSans 256 0 0 0 IN[1]
+port 3 nsew signal input
+flabel metal1 2075 111 2175 197 0 FreeSans 256 0 0 0 IN[2]
+port 4 nsew signal input
+flabel metal1 2663 1697 2763 1783 0 FreeSans 256 0 0 0 IN[3]
+port 5 nsew signal input
+flabel metal1 3251 111 3351 197 0 FreeSans 256 0 0 0 IN[4]
+port 6 nsew signal input
+flabel metal1 3839 1697 3939 1783 0 FreeSans 256 0 0 0 IN[5]
+port 7 nsew signal input
+flabel metal1 4427 111 4527 197 0 FreeSans 256 0 0 0 IN[6]
+port 8 nsew signal input
+flabel metal1 5015 1697 5115 1783 0 FreeSans 256 0 0 0 IN[7]
+port 9 nsew signal input
+flabel metal1 4623 1697 4919 1783 0 FreeSans 256 0 0 0 OUT
+port 10 nsew signal output
+<< end >>
