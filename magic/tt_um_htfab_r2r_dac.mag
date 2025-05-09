@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1746729020
+timestamp 1746820180
 << metal1 >>
 rect 18935 27306 19035 27315
 rect 18935 27229 18936 27306
@@ -444,7 +444,7 @@ rect 0 14996 200 15176
 rect 24000 0 24440 26284
 rect 24800 0 25240 30596
 use r2r_dac  r2r_dac_0
-timestamp 1746729020
+timestamp 1746820180
 transform -1 0 23462 0 -1 27417
 box -89 -93 5515 1987
 << labels >>
